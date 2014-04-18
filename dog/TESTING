@@ -1,0 +1,9 @@
+This dog program was originally written and tested on an OSX machine but it has also been tested
+on the unix machines. I have tested numerous cases as per the assignment. from just simple echoing of
+text to more complex inputs with mutliple switches and files. The accepted input styles are as follows:
+
+./dog.o [-n] [-m] Mapfile [-M] Mapfile [list of target files]
+
+Note: the [-n] switch must be right after the function call, other switches after that, followed by their corresponding files, and then lastly the target file.
+If you don not want the dog command to be performed on a file simply leave this input field blank and the program will defaul to stdin for the input.
+Note: Do not combine switches in a single dash, each switch must have it's own dash.

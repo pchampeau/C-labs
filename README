@@ -1,0 +1,36 @@
+Lab 3 README
+Author: Paul Champeau
+
+
+chill.c
+This chill program was originally written and tested on an OSX machine however it has also been tested on the
+unix machines as well. This program has optional input arguments of temperature and wind velocity respectively.
+These inputs must be numbers. If no input is given the program will simply print out a chart of different wind speeds
+and temperatures. In addition if a temperature is specified and not a wind speed, a smaller chart will be displayed with 
+the given temperature and multiple factory set wind speeds.
+
+compile statement: gcc -Wall -pedantic -std=c11 -o chill.o chill.c -lm
+Input format: ./chill.o [temperature] [wind speed]
+
+
+weather.c
+This weather program was originally written and tested on an OSX machine but it has also been tested
+on the unix machines. I have tested numerous cases as per the assignment. This program must have a 
+single four letter station code as the only argument passed to the function. Formatted as follows
+
+Compile Statement: gcc -Wall -pedantic -std=c11 -o weather.o weather.c -lcurl mycurl.c
+Input format: ./weather.o [four letter station code]
+
+Note: if no code or an invalid code is entered, then the user will be prompted accordingly
+
+dog.c
+This dog program was originally written and tested on an OSX machine but it has also been tested
+on the unix machines. I have tested numerous cases as per the assignment. from just simple echoing of
+text to more complex inputs with mutliple switches and files. The accepted input styles are as follows:
+
+Compile Statement: gcc -Wall -pedantic -std=c11 -o dog.o dog.c
+Input Format: ./dog.o [-n] [-m] Mapfile [-M] Mapfile [list of target files]
+
+Note: the [-n] switch must be right after the function call, other switches after that, followed by their corresponding files, and then lastly the target file.
+If you don not want the dog command to be performed on a file simply leave this input field blank and the program will defaul to stdin for the input.
+Note: Do not combine switches in a single dash, each switch must have it's own dash.

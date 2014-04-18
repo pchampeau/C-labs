@@ -1,0 +1,5 @@
+This chill program was originally written and tested on an OSX machine however it has also been tested on the
+unix machines as well. This program has optional input arguments of temperature and wind velocity respectively.
+These inputs must be numbers. If no input is given the program will simply print out a chart of different wind speeds
+and temperatures. In addition if a temperature is specified and not a wind speed, a smaller chart will be displayed with 
+the given temperature and multiple factory set wind speeds.

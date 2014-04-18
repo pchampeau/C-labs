@@ -1,0 +1,7 @@
+This weather program was originally written and tested on an OSX machine but it has also been tested
+on the unix machines. I have tested numerous cases as per the assignment. This program must have a 
+single four letter station code as the only argument passed to the function. Formatted as follows
+
+./weather.o [four letter station code]
+
+Note: if no code or an invalid code is entered, then the user will be prompted accordingly
